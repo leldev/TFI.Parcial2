@@ -1,0 +1,30 @@
+USE [TFI.Parcial2]
+GO
+
+DROP PROCEDURE IF EXISTS [dbo].[USP_CreateAlumno]
+GO
+
+CREATE PROCEDURE [dbo].[USP_CreateAlumno]
+    (
+	@Nombre			   NVARCHAR(50)
+)
+AS
+
+SET NOCOUNT ON;
+BEGIN TRANSACTION
+DECLARE @NewId INT;
+
+INSERT INTO [dbo].[Alumno]
+    ([Nombre])
+VALUES
+    (@Nombre)
+SET @NewId = SCOPE_IDENTITY();
+
+IF @@ERROR <> 0
+BEGIN
+    ROLLBACK
+    RETURN
+END
+
+COMMIT
+SELECT @NewId
