@@ -36,19 +36,6 @@ $ git clone https://github.com/leldev/TFI.Parcial2.git
 
 ![Picture](https://github.com/leldev/TFI.Parcial2/blob/main/img/curso6.png)
 
-# Curso
-
-![Picture](https://github.com/leldev/TFI.Parcial2/blob/main/img/curso1.png)
-
-![Picture](https://github.com/leldev/TFI.Parcial2/blob/main/img/curso2.png)
-
-![Picture](https://github.com/leldev/TFI.Parcial2/blob/main/img/curso3.png)
-
-![Picture](https://github.com/leldev/TFI.Parcial2/blob/main/img/curso4.png)
-
-![Picture](https://github.com/leldev/TFI.Parcial2/blob/main/img/curso5.png)
-
-![Picture](https://github.com/leldev/TFI.Parcial2/blob/main/img/curso6.png)
 
 # Inscripción
 
